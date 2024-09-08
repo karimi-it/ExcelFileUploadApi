@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F16D9D6E-4230-424F-8AD3-30CF11342496}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7D72E653-D1E8-46ED-8E01-FB00C50EA47F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Domain", "ExcelFileUploadApi.Domain\ExcelFileUploadApi.Domain.csproj", "{30EF8C31-B1E9-4156-886F-0A726AFC99AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Application", "ExcelFileUploadApi.Application\ExcelFileUploadApi.Application.csproj", "{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Infrastructure", "ExcelFileUploadApi.Infrastructure\ExcelFileUploadApi.Infrastructure.csproj", "{B2F3073A-3D84-4047-A014-FA006B61EC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Presentation", "ExcelFileUploadApi.Presentation\ExcelFileUploadApi.Presentation.csproj", "{41BBD718-8107-4998-90F4-F1FC8C65DB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.UI", "ExcelFileUploadApi.UI\ExcelFileUploadApi.UI.csproj", "{D9EE6EAF-46C7-4E2D-B929-93731289E9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Application.Tests", "ExcelFileUploadApi.Application.Tests\ExcelFileUploadApi.Application.Tests.csproj", "{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Infrastructure.Tests", "ExcelFileUploadApi.Infrastructure.Tests\ExcelFileUploadApi.Infrastructure.Tests.csproj", "{6CE47942-4844-4D06-802A-6671D39F9259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.Presentation.Tests", "ExcelFileUploadApi.Presentation.Tests\ExcelFileUploadApi.Presentation.Tests.csproj", "{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFileUploadApi.UI.Tests", "ExcelFileUploadApi.UI.Tests\ExcelFileUploadApi.UI.Tests.csproj", "{5F9D59A1-B8DD-490F-AC0C-520573285C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EF8C31-B1E9-4156-886F-0A726AFC99AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EF8C31-B1E9-4156-886F-0A726AFC99AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EF8C31-B1E9-4156-886F-0A726AFC99AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EF8C31-B1E9-4156-886F-0A726AFC99AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F3073A-3D84-4047-A014-FA006B61EC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F3073A-3D84-4047-A014-FA006B61EC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F3073A-3D84-4047-A014-FA006B61EC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F3073A-3D84-4047-A014-FA006B61EC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BBD718-8107-4998-90F4-F1FC8C65DB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BBD718-8107-4998-90F4-F1FC8C65DB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BBD718-8107-4998-90F4-F1FC8C65DB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BBD718-8107-4998-90F4-F1FC8C65DB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EE6EAF-46C7-4E2D-B929-93731289E9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EE6EAF-46C7-4E2D-B929-93731289E9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EE6EAF-46C7-4E2D-B929-93731289E9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EE6EAF-46C7-4E2D-B929-93731289E9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE47942-4844-4D06-802A-6671D39F9259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE47942-4844-4D06-802A-6671D39F9259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE47942-4844-4D06-802A-6671D39F9259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE47942-4844-4D06-802A-6671D39F9259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9D59A1-B8DD-490F-AC0C-520573285C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9D59A1-B8DD-490F-AC0C-520573285C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9D59A1-B8DD-490F-AC0C-520573285C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9D59A1-B8DD-490F-AC0C-520573285C28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30EF8C31-B1E9-4156-886F-0A726AFC99AF} = {F16D9D6E-4230-424F-8AD3-30CF11342496}
+		{C69AEBCF-0F02-4D79-9EA2-82CD193B4AFB} = {F16D9D6E-4230-424F-8AD3-30CF11342496}
+		{B2F3073A-3D84-4047-A014-FA006B61EC32} = {F16D9D6E-4230-424F-8AD3-30CF11342496}
+		{41BBD718-8107-4998-90F4-F1FC8C65DB39} = {F16D9D6E-4230-424F-8AD3-30CF11342496}
+		{D9EE6EAF-46C7-4E2D-B929-93731289E9E5} = {F16D9D6E-4230-424F-8AD3-30CF11342496}
+		{47167D3B-8E1C-4D23-BD9C-8ACFFE02FB3F} = {7D72E653-D1E8-46ED-8E01-FB00C50EA47F}
+		{6CE47942-4844-4D06-802A-6671D39F9259} = {7D72E653-D1E8-46ED-8E01-FB00C50EA47F}
+		{AD5A0DD0-92AC-4C44-80BB-8EE50582F8DA} = {7D72E653-D1E8-46ED-8E01-FB00C50EA47F}
+		{5F9D59A1-B8DD-490F-AC0C-520573285C28} = {7D72E653-D1E8-46ED-8E01-FB00C50EA47F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BC2E4EB-EC7F-4324-A9C6-5A2E43F13959}
+	EndGlobalSection
+EndGlobal
